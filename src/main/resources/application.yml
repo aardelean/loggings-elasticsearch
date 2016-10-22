@@ -1,0 +1,8 @@
+server:
+  port: ${PORT}
+spring:
+  application:
+    name: ${SERVICE_NAME}
+  data:
+    elasticsearch:
+      cluster-nodes:  ${ES_HOST}:9300
